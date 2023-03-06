@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+#navbar{
+    padding: 15px 0;
+    .logo {
+        img{
+            width: 180px;
+            height: auto;
+        }
+    }
+    .btn{
+        background-color: #1EB2B6;
+        color: #ffffff;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 428px){
+    #navbar{
+        .logo{
+            img{
+                width: 150px;
+            }
+        }
+        .phone_num{
+            display: none;
+        }
+    }
+}
+
+#hero_section{
+    img{
+        width: 100%;
+    }
+}
+
+#second_section {
+    #second_bg{
+        background-image: url('./image/It-all-starts-great-food.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px 10px;
+
+        h2{
+            font-size: 50px;
+            font-weight: 600;
+            color: #1EB2B6;
+        }
+        h4{
+            font-size: 30px;
+            font-weight: 600;
+            color: #1EB2B6;
+        }
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #second_section{
+        #second_bg{
+            background-image: none;
+            h2{
+                font-size: 30px;
+            }
+            h4{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    #second_section{
+        #second_bg{
+            h2{
+                font-size: 40px;
+            }
+            h4{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+#delicious_menu{
+    h3{
+        color: #1EB2B6;
+    }
+    p{
+        color: #333333;
+    }
+    .delicious_div{
+        border: 2px dashed #1EB2B6;
+        margin: 10px;
+        padding: 10px;
+        height: 140px;
+        border-radius: 10px;
+    }
+}
+
+#third_section{
+    #third_bg{
+        background-image: url("./image/SafetySectionBackground.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        h2{
+            font-size: 60px;
+            color: #1EB2B6;
+            font-weight: 600;
+        }
+        .btn{
+            background-color: #1EB2B6;
+            color: #ffffff;
+        }
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+   #third_section {
+        #third_bg{
+            h2{
+                font-size: 30px;
+            }
+            background-image: none;
+        }
+   } 
+}
+
+#forth_section{
+
+        img{
+            border-radius: 15px;
+            width: 100%;
+        }
+        h2{
+            font-size: 60px;
+            padding-top: 30px;
+        }
+        .btn{
+            background-color: #1EB2B6;
+            color: #ffffff;
+        }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #forth_section {
+        h2{
+            font-size: 40px;
+        }
+            img{
+                width: 100%;
+                margin-top: 20px;
+            }
+    }
+}
+
+#fifth_section{
+    h2{
+        font-size: 50px;
+        color: #1EB2B6;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #fifth_section {
+        h2{
+            font-size: 30px;
+        }
+    }
+}
+
+
+#sixth_section{
+    #sixth_bg{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./image/promo-bottom.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px 0;
+    }
+    h2{
+        font-size: 60px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+    #sixth_left{
+        background-color: rgba(0,0,0,0.5);
+        padding: 10px 0;
+        margin: 0 40px;
+        border-radius: 20px;
+    }
+    .btn{
+        background-color: #1EB2B6;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #sixth_section{
+        .btn{
+            margin-top: 20px;
+        }
+    }
+}
+
+.copywrite{
+    background-color: #1EB2B6;
+    padding: 10px 0;
+    p{
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#navbar {
+  padding: 15px 0;
+}
+#navbar .logo img {
+  width: 180px;
+  height: auto;
+}
+#navbar .btn {
+  background-color: #1EB2B6;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #navbar .logo img {
+    width: 150px;
+  }
+  #navbar .phone_num {
+    display: none;
+  }
+}
+#hero_section img {
+  width: 100%;
+}
+
+#second_section #second_bg {
+  background-image: url("./image/It-all-starts-great-food.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 10px;
+}
+#second_section #second_bg h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #1EB2B6;
+}
+#second_section #second_bg h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #1EB2B6;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #second_section #second_bg {
+    background-image: none;
+  }
+  #second_section #second_bg h2 {
+    font-size: 30px;
+  }
+  #second_section #second_bg h4 {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  #second_section #second_bg h2 {
+    font-size: 40px;
+  }
+  #second_section #second_bg h4 {
+    font-size: 25px;
+  }
+}
+#delicious_menu h3 {
+  color: #1EB2B6;
+}
+#delicious_menu p {
+  color: #333333;
+}
+#delicious_menu .delicious_div {
+  border: 2px dashed #1EB2B6;
+  margin: 10px;
+  padding: 10px;
+  height: 140px;
+  border-radius: 10px;
+}
+
+#third_section #third_bg {
+  background-image: url("./image/SafetySectionBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#third_section #third_bg h2 {
+  font-size: 60px;
+  color: #1EB2B6;
+  font-weight: 600;
+}
+#third_section #third_bg .btn {
+  background-color: #1EB2B6;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #third_section #third_bg {
+    background-image: none;
+  }
+  #third_section #third_bg h2 {
+    font-size: 30px;
+  }
+}
+#forth_section img {
+  border-radius: 15px;
+  width: 100%;
+}
+#forth_section h2 {
+  font-size: 60px;
+  padding-top: 30px;
+}
+#forth_section .btn {
+  background-color: #1EB2B6;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #forth_section h2 {
+    font-size: 40px;
+  }
+  #forth_section img {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+#fifth_section h2 {
+  font-size: 50px;
+  color: #1EB2B6;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #fifth_section h2 {
+    font-size: 30px;
+  }
+}
+#sixth_section #sixth_bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/promo-bottom.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+#sixth_section h2 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 600;
+}
+#sixth_section #sixth_left {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  margin: 0 40px;
+  border-radius: 20px;
+}
+#sixth_section .btn {
+  background-color: #1EB2B6;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #sixth_section .btn {
+    margin-top: 20px;
+  }
+}
+.copywrite {
+  background-color: #1EB2B6;
+  padding: 10px 0;
+}
+.copywrite p {
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
